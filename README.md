@@ -1,2 +1,2 @@
 # CS143-Final-Coding-Project
-wassup
+Made by David Vu, Kevin Ho, Casey LaBay, and...
