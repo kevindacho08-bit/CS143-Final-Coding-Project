@@ -15,15 +15,35 @@ public abstract class Scholarship {
 	}
 	//parameterized constructor
 	Scholarship(double GPA, String race, String gender, double income, String major, boolean isFirstGenImmigrant, boolean isWashingtonResident) {
-		this.GPA = GPA;
-		this.race = race;
-		this.gender = gender;
-		this.income = income;
-		this.major = major;
-		this.isFirstGenImmigrant = isFirstGenImmigrant;
-		this.isWashingtonResident = isWashingtonResident;
+		setGPA(GPA);
+		setRace(race);
+		setGender(gender);
+		setIncome(income);
+		setMajor(major);
+		setIsFirstGenImmigrant(isFirstGenImmigrant);
+		setIsWashingtonResident(isWashingtonResident);
 	}
 	//setter methods
-		
+	public void setGPA(double GPA) {
+		this.GPA = GPA;
+	}
+	public void setRace(String race) {
+		this.race = race;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public void setIncome(double income) {
+		this.income = income;
+	}
+	public void setMajor(String major) {
+		this.major = major;
+	}
+	public void setIsFirstGenImmigrant(boolean isFirstGenImmigrant) {
+		this.isFirstGenImmigrant = isFirstGenImmigrant;
+	}
+	public void setIsWashingtonResident(boolean isWashingtonResident) {
+		this.isWashingtonResident = isWashingtonResident;
+	}
 	//getter methods
 }
