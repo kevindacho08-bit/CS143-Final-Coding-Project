@@ -1,11 +1,8 @@
-/**
- * 
- */
+
 package cs143.looking4carryplsjoin.scholarshipsearchengine;
 
-/**
- * 
- */
-public class User {
 
+public class User extends Scholarship {
+	
+	
 }
