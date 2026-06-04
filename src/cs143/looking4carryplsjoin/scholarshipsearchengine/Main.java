@@ -21,7 +21,7 @@ public class Main {
 		
 		//use static methods to initialize fields to initialize user constructor
 		//user = new User(name, GPA, race, gender, income, major, isFirstGenImmigrant, isWashingtonResident, scholarshipAmount);
-		
+		//FOr TT;
 		//Have while loop switch menu for 
 		//1. check elegibleScholarshisp 
 		//2. accept elegible scholarships
@@ -29,7 +29,7 @@ public class Main {
 		//3. check accepted Scholarships and amount 
 		//4. check user data
 		//5. and of course an exit
-		
+		//For TT;
 		//case 1. call comparescholarshisp and return elegiblescholarships and display + calculate elegiblemoneyamount
 		//case 2. go one by one prompting user to fill 2nd arraylist
 		//case 3. arraylist with all from compare scholarship class
@@ -72,6 +72,7 @@ public class Main {
 		default:
 			return "white";
 		}
+	//For Kevin
 	//public static String promptGender();
 	//public static Double promptIncome();
 	//public static String promptMajor();

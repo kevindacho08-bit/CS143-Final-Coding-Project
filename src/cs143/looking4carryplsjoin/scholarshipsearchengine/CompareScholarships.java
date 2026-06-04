@@ -11,11 +11,15 @@ public class CompareScholarships {
 	
 	//have method that displays filled arraylist
 	
+	//For Casey
 	/**public static ArrayList<Scholarship> returnEligible(User user) {
-	    ArrayList<Scholarship> elegibleScholarships = new ArrayList<Scholarships>();
+	    ArrayList<Scholarship> elegibleScholarships = scholarships;
 		fillScholarships();
+
 		
 		Not sure how to make logic, maybe use nested loops or recurssion
+		
+		//we can have "Any" fields that ignore and just automatically accetp the comparison
 		
 		return scholarships;
 	}**/

@@ -16,5 +16,6 @@ public class User extends Scholarship{
 	@Override
 	public void printDescription() {
 		//Output user information + scholarship amount
+		// for david
 	}
 }
