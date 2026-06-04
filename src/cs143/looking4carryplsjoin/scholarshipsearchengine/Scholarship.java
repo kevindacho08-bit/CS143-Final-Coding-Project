@@ -97,7 +97,7 @@ public abstract class Scholarship {
 		return isWashingtonResident;
 	}
 	
-	public double getScholarshipAmonut() {
+	public double getScholarshipAmount() {
 		return scholarshipAmount;
 	}
 	//helper methods
