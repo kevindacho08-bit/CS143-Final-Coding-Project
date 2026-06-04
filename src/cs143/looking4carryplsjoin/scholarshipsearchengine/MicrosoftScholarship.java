@@ -2,8 +2,8 @@ package cs143.looking4carryplsjoin.scholarshipsearchengine;
 
 public class MicrosoftScholarship extends Scholarship{
 		MicrosoftScholarship() {
-			super();
-		}/**We can hard code the scholarship data here**/
+			super(/**We can hard code the scholarship data here**/);
+		}
 
 		@Override
 		public void printDescription() {
