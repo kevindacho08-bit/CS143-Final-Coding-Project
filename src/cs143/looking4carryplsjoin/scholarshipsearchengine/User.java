@@ -15,6 +15,7 @@ public class User extends Scholarship{
 
 	@Override
 	public void printDescription() {
+		System.out.println("=============USER=====DATA============");
 		System.out.println(this.getName() + " | " + this.getRace() + " | " + this.getGender());
 		System.out.printf("Income: $%.2f | " + "Major: %s%n", this.getIncome(), this.getMajor()); 
 		if (this.getIsFirstGenImmigrant()) {
@@ -30,5 +31,6 @@ public class User extends Scholarship{
 			System.out.println("Is not a Washington Resident");
 		}
 		System.out.printf("Accepted Scholarship Amonut: $%.2f%n", this.getScholarshipAmount());
+		System.out.println("======================================");
 	}
 }
