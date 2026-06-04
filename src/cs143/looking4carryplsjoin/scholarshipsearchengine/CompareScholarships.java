@@ -9,8 +9,10 @@ public class CompareScholarships {
 		scholarships.add(new MicrosoftScholarship());
 	}
 	
-	public static ArrayList<Scholarship> returnEligible(User user) {
-		//fillScholarships();
+	//have method that displays filled arraylist
+	
+	/**public static ArrayList<Scholarship> returnEligible(User user) {
+		fillScholarships();
 		return scholarships;
-	}
+	}**/
 }
