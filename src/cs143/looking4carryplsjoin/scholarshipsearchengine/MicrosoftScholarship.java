@@ -4,4 +4,10 @@ public class MicrosoftScholarship extends Scholarship{
 		MicrosoftScholarship() {
 			super();
 		}/**We can hard code the scholarship data here**/
+
+		@Override
+		public void printDescription() {
+			// TODO Auto-generated method stub
+			
+		}
 }

@@ -100,5 +100,6 @@ public abstract class Scholarship {
 	public double getScholarshipAmonut() {
 		return scholarshipAmount;
 	}
-	
+	//helper methods
+	public abstract void printDescription();
 }	

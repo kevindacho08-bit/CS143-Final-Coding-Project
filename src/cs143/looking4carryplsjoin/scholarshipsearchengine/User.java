@@ -12,4 +12,9 @@ public class User extends Scholarship{
 	User(String name, double GPA, String race, String gender, double income, String major, boolean isFirstGenImmigrant, boolean isWashingtonResident, double scholarshipAmount) {
 		super(name, GPA, race, gender, income, major, isFirstGenImmigrant, isWashingtonResident, scholarshipAmount);
 	}
+
+	@Override
+	public void printDescription() {
+		//Output user information + scholarship amount
+	}
 }
