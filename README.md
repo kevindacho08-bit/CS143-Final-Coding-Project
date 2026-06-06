@@ -3,13 +3,12 @@ This program receives user data and uses that information to match the user with
 This program also helps track accepted Scholarship opportunities made by the user.
 
 ## OOP Hierarchy
-    [Abstract Base Class: Activity] 
-                 /         \
-   [Subclass: TreePlanting] [Subclass: TransitUse]  <-- Polymorphic Behavior
-                \         /
-         [Class: ImpactTracker]                     <-- Handles ArrayList<Activity>
-                 |
-         [Class: UserProfile]                       <-- Encapsulated Data
+    [Abstract Base Class: Scholarship] 
+                 /         \ 
+                 thesuoaht 
+                 hutensoahuoaesnt
+                 thueauahs
+  
 
 ## Explain what each class does
 ## Explain how the work together to perform project task
