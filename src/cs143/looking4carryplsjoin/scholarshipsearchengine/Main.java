@@ -20,15 +20,39 @@ public class Main {
 		double scholarshipAmount = 0; //at beginning user has no scholarships + this is for ACCEPTED scholarshisp only
 		
 		//use static methods to initialize fields to initialize user constructor
-		//user = new User(name, GPA, race, gender, income, major, isFirstGenImmigrant, isWashingtonResident, scholarshipAmount);
-		//FOr TT;
-		//Have while loop switch menu for 
-		//1. check elegibleScholarshisp 
-		//2. accept elegible scholarships
-		//2. check all scholarshisp
-		//3. check accepted Scholarships and amount 
-		//4. check user data
-		//5. and of course an exit
+		//For TT
+		user = new User();		// create new user object
+		char repeat = 'n';		// while-loop repeating variable 
+		do
+		{
+			// Display menu prompting user for input
+			System.out.println("    ...::: User Profile :::...");
+			System.out.println("Fill out the forms below");
+			name = promptName(sc);
+			user.setName(name);
+			GPA = promptGPA(sc);
+			user.setGPA(GPA);
+			race = promptRace(sc);
+			user.setRace(race);
+			gender = promptGender(sc);
+			user.setGender(gender);
+			income = promptIncome(sc);
+			user.setIncome(income);
+			major = promptMajor(sc);
+			user.setMajor(major);
+			isFirstGenImmigrant = promptIsFirstGenImmigrant(sc);
+			user.setIsFirstGenImmigrant(isFirstGenImmigrant);
+			scholarshipAmount = isWashingtonResident(sc);
+			user.setIsWashingtonResident(isWashingtonResident);
+			
+
+			user.printDescription();			// print user profile
+			System.out.println("Continue to edit? Press 'y' otherwise press 'n'");
+			repeat = sc.next().charAt(0);
+			
+			//TODO include exception handling for scanner in user profile
+			
+		} while(repeat == 'y' || repeat == 'Y');		// End of do-while menu loop
 		//For TT;
 		//case 1. call comparescholarshisp and return elegiblescholarships and display + calculate elegiblemoneyamount
 		//case 2. go one by one prompting user to fill 2nd arraylist
