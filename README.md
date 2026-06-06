@@ -11,6 +11,10 @@ This program also helps track accepted Scholarship opportunities made by the use
   
 
 ## Explain what each class does
+* **Scholarship** -
+* **User** -
+* **Other Classes that Extend Scholarship** -
+* **CompareScholarships** -
 ## Explain how the work together to perform project task
 
 ## Project Members
