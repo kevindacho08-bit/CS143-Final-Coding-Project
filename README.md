@@ -1,6 +1,8 @@
 # Scholarship Search Engine & Tracker
-This program receives user data and matches it with eligible scholarship opportunities.  
-blah blah
+This program receives user data and matches uses that information\
+to match the user with eligible scholarship opportunities.  
+This program also helps track accepted Scholarship oppurtunities\
+by user.
 
 ## OOP Hierarchy
 ## Explain what earch class does
