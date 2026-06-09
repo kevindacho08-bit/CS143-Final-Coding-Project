@@ -5,7 +5,8 @@ This program also helps track accepted Scholarship opportunities made by the use
 ## OOP Hierarchy
     [Abstract Base Class: Scholarship] 
                  /         \ 
-                 thesuoaht 
+                 [blah blah]
+
                  hutensoahuoaesnt
                  thueauahs
   
