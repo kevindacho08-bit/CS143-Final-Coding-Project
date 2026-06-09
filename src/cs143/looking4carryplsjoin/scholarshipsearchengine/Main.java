@@ -87,14 +87,21 @@ public class Main {
 	
 	public static String promptRace(Scanner sc) {
 		int choice = 0;
-		
+		System.out.println("1. white");
+		System.out.println("2. black");
+		System.out.println("3. asian");
+		System.out.println("Press unlisted numbers to set race as 'other'");
+		System.out.print("Choose race: ");
+		choice = sc.nextInt();
 		switch (choice) {
 		case 1:
 			return "white";
 		case 2:
 			return "black";
+		case 3:
+			return "asian";
 		default:
-			return "white";
+			return "other";
 		}
 	//For Kevin
 	//public static String promptGender();
