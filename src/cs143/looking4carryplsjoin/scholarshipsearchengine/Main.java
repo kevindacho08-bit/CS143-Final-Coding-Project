@@ -102,6 +102,43 @@ public class Main {
 	//public static String promptMajor();
 	//public static boolean promptIsFirstGenImmigrant();
 	//public static boolean prompt isWashingtonResident();
-		
+				public static String promptGender(Scanner sc) {
+			System.out.println("Select Gender");
+			System.out.println("1. Male");
+			System.out.println("2. Female");
+			System.out.print("Choice: ");
+			
+			int choice = sc.nextInt();
+			
+			switch (choice) {
+			case 1:
+				return "Male";
+			case 2:
+				return "Female";
+			default:
+				return "Male";
+				
+			}
+		}
+		public static Double promptIncome(Scanner sc) {
+			System.out.print("Enter Household Income: ");
+			return sc.nextDouble();
+		}
+		public static String promptMajor(Scanner sc) {
+			System.out.print("Enter Major: ");
+			sc.nextLine();
+			return sc.nextLine();
+		}
+		public static boolean promptIsFirstGenImmigrant(Scanner sc) {
+			System.out.print("Are you a First Generation College Student? true or false: ");
+			return sc.nextBoolean();
+		}
+		public static boolean promptisWashingtonResident(Scanner sc);{
+			System.out.print("Are you a Washington Resident? true or false: ");
+			return sc.nextBoolean();
+		}
+	}
+}
+
 	}
 }
