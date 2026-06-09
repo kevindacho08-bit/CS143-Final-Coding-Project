@@ -109,6 +109,6 @@ public class Main {
 	//public static String promptMajor();
 	//public static boolean promptIsFirstGen();
 	//public static boolean prompt isWashingtonResident();
-		
+		test
 	}
 }
