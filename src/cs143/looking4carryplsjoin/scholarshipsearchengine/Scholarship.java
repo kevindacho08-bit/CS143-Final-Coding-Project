@@ -8,7 +8,7 @@ public abstract class Scholarship {
 	private String gender;
 	private double income;
 	private String major;
-	private boolean isFirstGenImmigrant;
+	private boolean isFirstGen;
 	private boolean isWashingtonResident;
 	private double scholarshipAmount;
 	//default constructor
@@ -16,14 +16,14 @@ public abstract class Scholarship {
 		this("name", 0.0, "race", "gender", 0.0, "major", false, false, 0.0);
 	}
 	//parameterized constructor
-	Scholarship(String name, double GPA, String race, String gender, double income, String major, boolean isFirstGenImmigrant, boolean isWashingtonResident, double scholarshipAmount) {
+	Scholarship(String name, double GPA, String race, String gender, double income, String major, boolean isFirstGen, boolean isWashingtonResident, double scholarshipAmount) {
 		setName(name);
 		setGPA(GPA);
 		setRace(race);
 		setGender(gender);
 		setIncome(income);
 		setMajor(major);
-		setIsFirstGenImmigrant(isFirstGenImmigrant);
+		setIsFirstGen(isFirstGen);
 		setIsWashingtonResident(isWashingtonResident);
 		setScholarshipAmount(scholarshipAmount);
 	}
@@ -52,8 +52,8 @@ public abstract class Scholarship {
 		this.major = major;
 	}
 	
-	public void setIsFirstGenImmigrant(boolean isFirstGenImmigrant) {
-		this.isFirstGenImmigrant = isFirstGenImmigrant;
+	public void setIsFirstGen(boolean isFirstGen) {
+		this.isFirstGen = isFirstGen;
 	}
 	
 	public void setIsWashingtonResident(boolean isWashingtonResident) {
@@ -89,8 +89,8 @@ public abstract class Scholarship {
 		return major;
 	}
 	
-	public boolean getIsFirstGenImmigrant() {
-		return isFirstGenImmigrant;
+	public boolean getIsFirstGen() {
+		return isFirstGen;
 	}
 	
 	public boolean getIsWashingtonResident() {

@@ -9,8 +9,8 @@ public class User extends Scholarship{
 	}
 	
 	//parameterized constructor
-	User(String name, double GPA, String race, String gender, double income, String major, boolean isFirstGenImmigrant, boolean isWashingtonResident, double scholarshipAmount) {
-		super(name, GPA, race, gender, income, major, isFirstGenImmigrant, isWashingtonResident, scholarshipAmount);
+	User(String name, double GPA, String race, String gender, double income, String major, boolean isFirstGen, boolean isWashingtonResident, double scholarshipAmount) {
+		super(name, GPA, race, gender, income, major, isFirstGen, isWashingtonResident, scholarshipAmount);
 	}
 
 	@Override
@@ -18,11 +18,11 @@ public class User extends Scholarship{
 		System.out.println("=============USER=====DATA============");
 		System.out.println(this.getName() + " | " + this.getRace() + " | " + this.getGender());
 		System.out.printf("Income: $%.2f | " + "Major: %s%n", this.getIncome(), this.getMajor()); 
-		if (this.getIsFirstGenImmigrant()) {
-			System.out.println("Is a First Generation Immigrant");
+		if (this.getIsFirstGen()) {
+			System.out.println("Is a First Generation College Student");
 		}
 		else {
-			System.out.println("Is not a First Generation Immigrant");
+			System.out.println("Is not a First Generation College Student");
 		}
 		if (this.getIsWashingtonResident()) {
 			System.out.println("Is a Washington Resident");

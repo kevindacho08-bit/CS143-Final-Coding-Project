@@ -15,7 +15,7 @@ public class Main {
 		String gender;
 		double income;
 		String major;
-		boolean isFirstGenImmigrant;
+		boolean isFirstGen;
 		boolean isWashingtonResident;
 		double scholarshipAmount = 0; //at beginning user has no scholarships + this is for ACCEPTED scholarshisp only
 		
@@ -40,8 +40,8 @@ public class Main {
 			user.setIncome(income);
 			major = promptMajor(sc);
 			user.setMajor(major);
-			isFirstGenImmigrant = promptIsFirstGenImmigrant(sc);
-			user.setIsFirstGenImmigrant(isFirstGenImmigrant);
+			isFirstGen = promptIsFirstGen(sc);
+			user.setIsFirstGen(isFirstGen);
 			scholarshipAmount = isWashingtonResident(sc);
 			user.setIsWashingtonResident(isWashingtonResident);
 			
@@ -100,7 +100,7 @@ public class Main {
 	//public static String promptGender();
 	//public static Double promptIncome();
 	//public static String promptMajor();
-	//public static boolean promptIsFirstGenImmigrant();
+	//public static boolean promptIsFirstGen();
 	//public static boolean prompt isWashingtonResident();
 		
 	}
